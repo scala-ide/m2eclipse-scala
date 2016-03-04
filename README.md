@@ -22,6 +22,10 @@ The plugin is "validated" by importing into Eclipse the sample projects :
 
 ### Changes
 
+#### 0.6.0
+
+* Update to Eclipse Luna and Scala IDE 4.3
+
 #### 0.5.1
 
 * remove use of Jobs to update classpath (fix #35 & #36 )
@@ -44,7 +48,7 @@ The plugin is "validated" by importing into Eclipse the sample projects :
 #### 0.4.1
 
 * upgrade tycho (0.14.1), eclipse p2 repository (indigo)
-* modify lifecycle: every goals are modified to "ignore" or to avoid run during incremental compilation 
+* modify lifecycle: every goals are modified to "ignore" or to avoid run during incremental compilation
 * add JavaNature to project if it missing
 
 #### 0.4.0
